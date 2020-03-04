@@ -1,7 +1,11 @@
+let sounds = [];
+let s;
+
 function setup() {
-  createCanvas(400, 400)
+  video = createCapture(VIDEO);
+  video.size(600, 400);  
 }
 
-function draw() {
-  ellipse(20, 20, 10);
+function play() {
+  
 }
